@@ -1,0 +1,18 @@
+// Script made by @davidcwikla
+// Follow me on TikTok @davitech_hacking
+// Follow me on instagram @davidcwikla
+
+
+#include "DigiKeyboard.h"
+
+void setup() {
+  
+}
+void loop() {
+  DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.print("http://fakeupdate.net/win10ue");
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_F11);
+}
